@@ -1,12 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Searcharea() {
     return (
         <div className="container">
             <div className="row">
                 <div className="col">
-                    <div className="mt-3 bg-info text-white p-2">
-                        <div>
+                    <div className="mt-3 text-white p-2">
+                        <div className="bgImg">
                             <h2> Resorts </h2>
                             <p>Treat yourself ! your dream resort stay is just one click away.</p>
                             <div className="pl-1">
@@ -29,7 +30,9 @@ function Searcharea() {
                                             </select>
                                         </div>
                                         <div className="flex-fill ">
-                                            <button className="btn btn-primary custBorder rounded-right  border-left-0">Search</button>
+                                            <Link to="/search">
+                                                <button className="btn btn-primary custBorder rounded-right  border-left-0">Search</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </form>

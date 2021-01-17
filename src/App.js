@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import Mainbody from './Components/Body/Mainbody';
 import Detail from './Components/Body/Detail';
 import Footer from './Components/Footer/Footer';
+import Searchpage from './Components/Searchpage/Searchpage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Mainbody} />
           <Route path="/details" component={Detail} />
+          <Route path="/search" component={Searchpage} />
           <Redirect from='*' to='/' component={Detail} />
         </Switch>
 
