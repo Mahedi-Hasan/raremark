@@ -1,0 +1,7 @@
+Job Segments.
+
+1. Designing Landing page (5 Hours)
+2. Designing Detail Page (3 Hours)
+3. Designing Search Page (2 Hours)
+4. Search Functionality (2 Hours)
+5. CRUD Functionality (8 Hours)
