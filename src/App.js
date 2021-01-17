@@ -14,7 +14,7 @@ function App() {
         <Searcharea/>
         <Switch>
           <Route exact path="/" component={Mainbody} />
-          <Route path="/foryou" component={Detail} />
+          <Route path="/details" component={Detail} />
           <Redirect from='*' to='/' component={Detail} />
         </Switch>
 

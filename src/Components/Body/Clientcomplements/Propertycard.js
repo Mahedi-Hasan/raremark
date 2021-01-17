@@ -1,12 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import room from '../../../assets/images/room.jpg';
 export default function Propertycard(props) {
     return (
         <div>
             <div className="d-flex flex-column">
+                    <Link to="/details">
                     <div className="complementsImg1">
                         <img src={room} className="img-fluid rounded" />
                     </div>
+                    </Link>
                     <div className="mt-3">
                         {props.star}
                     </div>

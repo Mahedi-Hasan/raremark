@@ -14,6 +14,7 @@ export default function Clientcomplements() {
 
             </div>
             <div className="col-4">
+                
                 <Propertycard star="*****" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum The first line of Lorem Ipsum." user="Nicky" country="China"/>
             </div>
             <div className="col-4">
